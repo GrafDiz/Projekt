@@ -156,7 +156,7 @@ main{
 }
 .video{
     margin: 3vw;
-    width: 40%;
+    width: 80%;
     background-color: rgb(39, 7, 13);
     color: aliceblue;
     border-radius: 10px;
@@ -211,7 +211,7 @@ section{
 }
 .audio{
     padding-bottom: 2vw;
-
+    width: 45%;
     transition: 0.2s;
 }
 .songtitle{
