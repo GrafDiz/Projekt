@@ -1,0 +1,8 @@
+body{
+    background-color: rgb(82, 28, 31);
+    margin: 0;
+    padding: 0; 
+    background-image:url(Images/Background.jpg);
+    background-attachment: fixed;
+    background-size:cover;
+}

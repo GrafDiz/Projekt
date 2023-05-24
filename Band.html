@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <title>Projekt</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
@@ -11,7 +12,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
-    <title>Projekt</title>
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body>
     <header id="home">We're PTSD</header>
@@ -23,7 +25,7 @@
             <a href="Index.html">Home</a>
         </div>
     </nav>
-    <div class="background2">About Us</div>
+    <div class="background">About Us</div>
     <main>
         <div class="blok">
            <div class="text" id="passion">
@@ -36,10 +38,21 @@ Creativity flows through our veins, and we constantly generate new ideas for son
 
 In a world of alternative grunge, we strive to carve out our own path, delivering authentic and evocative music that resonates with our audience. With our love for the genre and our dedication to our craft, we are determined to make a lasting impact with our distinctive sound as PTSD.
            </div>
-           <img src="Images/Band_1.jpg" class="Textimage" alt="Filler">
+           <div data-aos="fade"
+           aos-animate
+           data-aos-easing="linear"
+           data-aos-duration="1500">
+            <img src="Images/Band_1.jpg" class="Textimage" alt="Filler">
+            </div>
+          
         </div>
         <div class="bloknomargin">
+            <div data-aos="fade"
+            aos-animate
+            data-aos-easing="linear"
+            data-aos-duration="1500">
             <img src="Images/Me_1.jpg" class="Textimage" alt="Filler">
+            </div>
             <div class="text" id="expirience">
                 <div class="title">My music</div>   
            I am proud to be a member of the band PTSD. One of my main roles in the band is composing our songs. I take great pleasure in writing the melodies, riffs, and overall musical structure that define our sound. Collaborating closely with our bassist, Inga, and our exceptional drummer.
@@ -53,13 +66,14 @@ In a world of alternative grunge, we strive to carve out our own path, deliverin
         </div>
 
     </main>
-    <section>
-        <div class="bloknomargin2">
+    <article>
+        <div class="bloknomargin">
             <div class="video" id="demos">
                 <div class="title">Here some of my demos:</div>  
                 <div class="songtitle">"My dog is dying":</div>
                 <audio controls class="audio"> 
                 <source src="Audio/MyDogDies.mp3" type="audio/mpeg">
+                Twoja przeglądarka nie obsługuje elementu audio.
                 </audio>
                 <div class="songtitle">"Eyes Of Fear":</div>
                 <audio controls class="audio"> 
@@ -79,7 +93,7 @@ In a world of alternative grunge, we strive to carve out our own path, deliverin
                 </audio>
             </div>   
         </div>
-    </section>
+    </article>
     <footer>
         <div class="info">
             <div class="pr"><img src="Images/Icons/Instagram.png" alt="instagram" class="Icons"><div class="textsmall">01lewy22</div></div>
@@ -87,5 +101,13 @@ In a world of alternative grunge, we strive to carve out our own path, deliverin
             <div class="pr"><img src="Images/Icons/Facebook.png" alt="instagram" class="Icons"><div class="textsmall">Mateusz Lewandoski</div></div>
         </div class="info">
     </footer>
+    
+</div>
+<script>
+    AOS.init({
+        duration: 2000,
+        offset: 300,
+        anchorPlacement: 'down-bottom'});
+  </script>
 </body>
 </html>
