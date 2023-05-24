@@ -180,14 +180,14 @@ main{
     height: 50%;
     padding: 1vw;
     border-radius: 8%;
-    filter: grayscale(1);
+    filter: grayscale(0.5);
     transition: 0.4s;
 }.Textimage{
     width: 45vw;
     height: 45vw;
     padding: 1vw;
     border-radius: 8%;
-    filter: grayscale(1);
+    filter: grayscale(0.5);
     transition: 0.4s;
 }
 .MulImg{
